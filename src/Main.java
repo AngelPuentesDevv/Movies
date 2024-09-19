@@ -13,6 +13,8 @@ public class Main {
                 """+ fechaDeLanzamiento;
         System.out.println(sinopsis);
 
-
+        //Realizar casting para trabajar un nuevo tipo de dato (double a int)
+        int clasificacion = (int) (media/2);
+        System.out.println("Estrellas: "+ clasificacion);
     }
 }
